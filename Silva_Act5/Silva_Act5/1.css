@@ -1,0 +1,172 @@
+body{
+    background-color: rgb(36, 42, 44);
+}
+
+header{
+    margin: 20px;
+    border: 5px solid #3cc2f7;
+    background-color: rgb(182, 227, 248);
+    display: flex;
+    position: sticky;
+    top: 0;
+    gap: 10px;
+    justify-content: space-evenly;
+}
+
+.input{
+    display: flex;
+    background-color: rgb(208, 247, 250);
+}
+
+.btn{
+    background-color: chartreuse;
+}
+
+.wow{
+    font-size: 75px;
+}
+
+.box:hover{
+    background-color: greenyellow;
+    transition: all .3 ease 0;
+}
+
+.box1:hover{
+    background-color: greenyellow;
+    transition: all .3 ease 0;
+}
+
+.box2:hover{
+    background-color: greenyellow;
+    transition: all .3 ease 0;
+}
+
+.box3:hover{
+    background-color: greenyellow;
+    transition: all .3 ease 0;
+}
+
+nav ul{
+    margin: 0;
+    font-size: 25px;
+    list-style: none;
+    display: flex;
+    padding: 10px;
+    gap: 50px;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.dev{
+    display: flex;
+    background-color: rgba(48, 185, 248, 0.534);
+}
+
+aside{
+    border: 5px solid #3cc2f7;
+    display: flex;
+    padding: 10px;
+    gap: 20px 50px;
+}
+
+.sec{
+    margin: 20px;
+    background-color: #aecef7;
+    border: 5px solid #3cc2f7;
+    padding: 15px;
+    align-items: center;
+    display: flex;
+    gap: 10px 300px
+}
+
+.cont{
+    display: flex;
+    border: 5px solid #3cc2f7;
+    justify-content: center;
+    align-items: center;
+}
+
+p:first-of-type{
+    display: flex;
+    justify-content: center;
+}
+
+section{
+    margin: 0;
+    border: 50px;
+    background-color:darkcyan;
+}
+
+.coffee{
+    margin: 20px;
+    font-size: 25px;
+    background-color: #aecef7;
+    border: 5px solid #3cc2f7;
+    gap: 10px;
+    padding: 10px;
+}
+
+.dami{
+    background-color: #252f33;
+    margin: 20px;
+    border: 5px solid #3cc2f7;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.ayaw{
+    font-size: 50px;
+    margin: 20px;
+    background-color: #aecef7;
+    border: 5px solid #3cc2f7;
+}
+
+.ayaw ul li{
+    display: flex;
+    list-style: none;
+}
+
+.no{
+    
+    padding: 10px 10px;
+    gap: 10px;
+}
+
+.yes{
+    font-size: 25px;
+}
+
+.jump{
+    list-style: none;
+    margin: 20px;
+    background-color: #aecef7;
+    border: 5px solid #3cc2f7;
+}
+
+.jump ul li{
+    font-size: 35px;
+}
+
+.a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 10px;
+    font-size: 40px;
+}
+
+.b{
+    font-size: 35px;
+    margin: 20px;
+    background-color: #aecef7;
+    border: 5px solid #3cc2f7;
+}
+
+.c{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 10px;
+    font-size: 45px;
+}

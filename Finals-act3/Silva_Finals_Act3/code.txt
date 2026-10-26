@@ -1,0 +1,67 @@
+script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+$(document).ready(function(){
+    $("#title").text("Welldone student")
+
+    $(".intro").text("BARITUBAO")
+
+    $("p.p2").css("color","lime")
+    $("p:first").css("color","lime")
+
+    $("ul li:first").css("color","blue")
+    $("ul li:last").css("color","green")
+    $("[href]").css("color","moss")
+
+    $("th").css("background","gold")
+    $("tr:even").css("background","lightblue")
+    $("tr:odd").css("background","lightgreen")
+
+    $("#btn").click(function(){
+        $("#message").text("You Clicked The Button")
+    })
+
+    $("#btn").dblclick(function(){
+        $("#message").text("You Doubled Click The Button")
+        $(this).css("color","red")
+    })
+
+    $("#btn").mouseenter(function(){
+        $("#message").text("Mouse is enter the button")
+    })
+
+    $("#btn").mouseleave(function(){
+        $("#message").text("Your mouse leaves the button")
+    })
+
+    $("#btn2").mousedown(function(){
+        $(this).css("background","violet")
+    })
+
+    $("#btn2").mouseup(function(){
+        $(this).css("background","blue")
+    })
+
+    $("#name").focus(function(){
+        $("#message").text("typing.....")
+        $(this).css("background","blue")
+    })
+
+    $("#name").blur(function(){
+        $("#message").text("Output:")
+        $(this).css("background","white")
+    })
+
+    $("#course").change(function(){
+        $("#message").text($(this).val())
+    })
+
+    $("#btnhide").click(function(){
+        $("#table").hide("slow")
+    })
+
+    $("#btnshow").click(function(){
+        $("#table").show(2000)
+    })
+})
+
+

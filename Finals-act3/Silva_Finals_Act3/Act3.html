@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+</head>
+
+    <style>
+
+        .form{
+            background-color: antiquewhite;
+            border-radius: 50px;
+            margin: auto;
+            padding: 10px;
+        }
+
+        .stud{
+            text-align: center;
+        }
+
+        .par{
+            text-align: center;
+        }
+
+
+        .profile{
+            background-color: black;
+            color: white;
+            border-radius: 50px;
+            margin: auto;
+            padding: 10px;
+        }
+
+        .divbtn{
+            text-align: center;
+            font-size: 50px;
+        }
+
+        .par2{
+            text-align: center;
+            background-color: aquamarine;
+            margin: 15px;
+            padding: 20px;
+            border-radius: 50px;
+        }
+
+        .par3{
+            background-color: aquamarine;
+            margin: 15px;
+            padding: 20px;
+            border-radius: 50px;
+        }
+
+        table{
+            display: flex;
+            justify-content: center;
+        }
+    </style>
+
+<body>
+
+    <form class="form">
+            <h1 class="stud" id="stud1">My Student Profile</h1>
+            <p class="par">Welcome to my interactive profile!</p>
+
+            <div class="profile" id="profile1">
+                <h1 >Student Information</h1>
+                <p id="name">Name: Silva, Wendel T.</p>
+                <p id="course">Course: BSIT</p>
+                <p id="yearlevel">Year Level:</p>
+            </div>
+
+            <br>
+            <div class="divbtn">
+                <button id="btntitle">Change Title</button>
+                <button id="btnhide">Hide Profile</button>
+                <button id="btnshow">Show Profile</button>
+            </div>
+        <br>
+        <br>
+        <p class="par2" id="message">Message</p>
+
+        <h1>Choose Your Course</h1>
+
+        <select id="courses">
+            <option value="">Select Course</option>
+            <option value="BSIT">BSIT</option>
+            <option value="BSCS">BSCS</option>
+            <option value="BSTM">BSTM</option>
+        </select>
+
+        <p class="par3" id="message1">Message</p>
+
+        <table id="table1">
+            <tr>
+                <th>No.</th>
+                <th>Name</th>
+                <th>Course</th>
+                <th>Year Level</th>
+            </tr>
+
+            <tr>
+                <td>1</td>
+                <td>Juan</td>
+                <td>BSIT</td>
+                <td>3rd Year</td>
+            </tr>
+
+            <tr>
+                <td>2</td>
+                <td>Maria</td>
+                <td>BSCS</td>
+                <td>3rd Year</td>
+            </tr>
+
+            <tr>
+                <td>3</td>
+                <td>Pedro</td>
+                <td>BSIS</td>
+                <td>2nd Year</td>
+            </tr>
+
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+        </table>
+    </form>
+
+    <script src="java.js"></script>
+</body>
+</html>
